@@ -1,8 +1,8 @@
 package main.com.examination.util;
 
 /**
- * @author Ming
- * @date 2020/3/26 - 22:28
+ * @author LinJH
+ * @date 2020/10/8 - 22:45
  * @describe
  */
 public class ProcessUtil {

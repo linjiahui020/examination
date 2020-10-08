@@ -11,8 +11,8 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 /**
- * @author Ming
- * @date 2020/3/26 - 23:13
+ * @author LinJH
+ * @date 2020/10/8 - 20:27
  * @describe
  */
 public class CreatUtil {

@@ -1,8 +1,8 @@
 package main.com.examination.commons;
 
 /**
- * @author Ming
- * @date 2020/3/27 - 0:35
+ * @author LinJH
+ * @date 2020/10/8 - 17:57
  * @describe
  */
 public enum Operator {

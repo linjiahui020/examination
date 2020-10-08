@@ -19,6 +19,11 @@ import main.com.examination.util.CreatUtil;
 import main.com.examination.view.UserUI;
 
 
+/**
+ * @author LinJH
+ * @date 2020/10/8 - 18:27
+ * @describe
+ */
 @SuppressWarnings("all")
 public class MainUI {
 	private String pathFormula;//式子文件路径

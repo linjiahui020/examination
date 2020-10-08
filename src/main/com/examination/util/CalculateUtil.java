@@ -5,11 +5,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author Ming
- * @date 2020/3/26 - 23:13
+ * @author LinJH
+ * @date 2020/10/8 - 23:13
  * @describe
  */
-@SuppressWarnings("unused")
+@SuppressWarnings("all")
 public class CalculateUtil {
 
 	private static final Logger logger = Logger.getLogger("CalculateUtil");

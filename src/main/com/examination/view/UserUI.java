@@ -16,6 +16,11 @@ import java.util.List;
 import main.com.examination.util.CreatUtil;
 import main.com.examination.dao.*;
 
+/**
+ * @author LinJH
+ * @date 2020/10/8 - 19:51
+ * @describe
+ */
 public class UserUI {
     private int formulaNum;
     private int maxNum;
