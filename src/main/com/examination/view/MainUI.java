@@ -38,7 +38,7 @@ public class MainUI {
 
 	CreatUtil creatFor = new CreatUtil();
 
-	private JLabel label1 = new JLabel("欢迎来到四则运算的世界");
+	private JLabel label1 = new JLabel("四则运算");
 	private JLabel label2 = new JLabel("请输入生成式子的数目：");
 	private JLabel label3 = new JLabel("请输入操作数的最大值：");
 
@@ -110,7 +110,7 @@ public class MainUI {
 
 	private void init() {
 		GridBagConstraints gbc = new GridBagConstraints();
-		label1.setFont(new Font("楷体",Font.BOLD,40));
+		label1.setFont(new Font("楷体",Font.BOLD,30));
 		gbc.gridx = 0;
 		gbc.gridy = 0;
 		panel1.add(label1, gbc);
@@ -243,6 +243,11 @@ public class MainUI {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				File file1 = new File(pathFormula);
+				if(!file1.exists() || file1.isDirectory()){
+					JDialog warning = creatWarning();
+					warning.setVisible(true);
+					return;
+				}
 				List<StringBuilder> formulas = FileDao.readFile(file1);
 				if(formulas==null) {
 					text1.setBorder(BorderFactory.createLineBorder(Color.red));
@@ -251,6 +256,11 @@ public class MainUI {
 					FileDao.storageFile(formulas, "Exercises.txt");
 				}
 				File file2 = new File(pathAnswer);
+				if(!file2.exists() || file2.isDirectory()){
+					JDialog warning = creatWarning();
+					warning.setVisible(true);
+					return;
+				}
 				List<StringBuilder> answers = FileDao.readFile(file2);
 				if(formulas==null) {
 					text1.setBorder(BorderFactory.createLineBorder(Color.red));

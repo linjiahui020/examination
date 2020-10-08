@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="examination-system:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fba14c7a-86a5-48f8-8d1d-88bfcd2cd1f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/examination/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/examination/util/ProcessUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/util/ProcessUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/examination/view/UserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/view/UserUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/examination_system_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Answers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Answers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/util/CalculateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/util/CalculateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/util/ProcessUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/util/ProcessUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/view/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/view/MainUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,29 +45,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/MainUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3726">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/UserUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="193" column="42" lean-forward="true" selection-start-line="193" selection-start-column="42" selection-end-line="193" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Grade.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="179">
+              <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
+              <folding>
+                <element signature="e#555#579#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,26 +60,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+            <state relative-caret-position="-2937">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="94" column="105" selection-start-line="94" selection-start-column="105" selection-end-line="94" selection-end-column="105" />
+            <state relative-caret-position="138">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="e#199#223#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/ProcessUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/com/examination/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="139" column="21" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="21" />
+            <state relative-caret-position="253">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/examination/commons/Operator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -88,11 +113,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java" />
-        <option value="$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java" />
         <option value="$PROJECT_DIR$/src/main/com/examination/view/UserUI.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java" />
         <option value="$PROJECT_DIR$/src/main/com/examination/util/ProcessUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/commons/Operator.java" />
         <option value="$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/util/CheckUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/view/MainUI.java" />
       </list>
     </option>
   </component>
@@ -194,6 +223,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -204,6 +234,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -249,15 +282,33 @@
       <option name="presentableId" value="Default" />
       <updated>1602056841557</updated>
       <workItem from="1602056847385" duration="4057000" />
-      <workItem from="1602120931983" duration="18804000" />
+      <workItem from="1602120931983" duration="21946000" />
     </task>
+    <task id="LOCAL-00001" summary="[add]添加注释">
+      <created>1602158138427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602158138427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22861000" />
+    <option name="totallyTimeSpent" value="26003000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18593371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -268,12 +319,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20426288" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19893429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28419182" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -294,6 +345,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[add]添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add]添加注释" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Exercises.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -302,49 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
           <caret line="5293" column="29" selection-start-line="5293" selection-start-column="29" selection-end-line="5293" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/commons/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/MainUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3726">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Answers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/UserUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="193" column="42" lean-forward="true" selection-start-line="193" selection-start-column="42" selection-end-line="193" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="94" column="105" selection-start-line="94" selection-start-column="105" selection-end-line="94" selection-end-column="105" />
         </state>
       </provider>
     </entry>
@@ -366,24 +378,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/ProcessUtil.java">
+    <entry file="file://$PROJECT_DIR$/Grade.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="139" column="21" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="21" />
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2783">
-          <caret line="123" column="39" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="39" />
+        <state relative-caret-position="138">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CheckUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#208#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/ProcessUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/UserUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Answers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examination-system.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/commons/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/examination/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="253">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="e#136#137#0" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
@@ -393,24 +453,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+        <state relative-caret-position="-2937">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Grade.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="138">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#199#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/MainUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
+          <folding>
+            <element signature="e#555#579#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>examination-system:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
