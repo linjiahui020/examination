@@ -13,7 +13,7 @@ import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.com.examination.util.CreatUtil;
+import main.com.examination.util.CreateUtil;
 import main.com.examination.dao.*;
 
 /**
@@ -21,7 +21,7 @@ import main.com.examination.dao.*;
  * @date 2020/10/8 - 19:51
  * @describe
  */
-public class UserUI {
+public class UserView {
     private int formulaNum;
     private int maxNum;
 
@@ -31,17 +31,17 @@ public class UserUI {
     int titleNum = 0;//题号
     boolean flag;//标志该题是否做过
 
-    CreatUtil creatFor = new CreatUtil();
+    CreateUtil creatFor = new CreateUtil();
 
     List<StringBuilder> formulas;
     List<StringBuilder> answers;
 
-    public UserUI(int formula, int max) throws IOException {
+    public UserView(int formula, int max) throws IOException {
         formulaNum = formula;
         maxNum = max;
         errorTitle = new int[formulaNum];
-        formulas = FileDao.readFile(new File("Exercises.txt"));
-        answers = FileDao.readFile(new File("Answers.txt"));
+        formulas = IODao.readFile(new File("Exercises.txt"));
+        answers = IODao.readFile(new File("Answers.txt"));
         creatFrame(1);
     }
 
@@ -197,7 +197,7 @@ public class UserUI {
                     public void actionPerformed(ActionEvent e) {
                         try {
                             creatFor.formulaNum(formulaNum, maxNum);
-                            UserUI frame = new UserUI(formulaNum, maxNum);
+                            UserView frame = new UserView(formulaNum, maxNum);
                         } catch (IOException e1) {
                             // TODO Auto-generated catch block
                             e1.printStackTrace();
@@ -325,6 +325,6 @@ public class UserUI {
         }
         result.add(correct);
         result.add(error);
-        FileDao.storageResult(result, "Grade.txt");
+        IODao.storageResult(result, "Grade.txt");
     }
 }

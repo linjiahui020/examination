@@ -7,31 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba14c7a-86a5-48f8-8d1d-88bfcd2cd1f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/examination_system_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Answers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Answers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercises.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/util/CalculateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/util/CalculateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/util/ProcessUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/util/ProcessUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/MainUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/examination-system/main/com/examination/view/UserUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/examination/view/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/view/MainUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/commons/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/commons/OperatorVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/dao/IODao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/util/CreateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/util/ProcessUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/util/HandleUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/view/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/view/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/examination/view/UserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/examination/view/UserView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,57 +33,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/MainView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1307">
+              <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+              <folding>
+                <element signature="e#1762#1763#0" expanded="true" />
+                <element signature="e#1790#1791#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/MainUI.java">
+        <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CreateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
-              <folding>
-                <element signature="e#555#579#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2937">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding>
-                <element signature="e#199#223#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/examination/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/examination/commons/Operator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="1863">
+              <caret line="91" column="60" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -114,22 +69,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/com/examination/view/UserUI.java" />
-        <option value="$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java" />
         <option value="$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java" />
         <option value="$PROJECT_DIR$/src/main/com/examination/util/ProcessUtil.java" />
         <option value="$PROJECT_DIR$/src/main/com/examination/commons/Operator.java" />
-        <option value="$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/com/examination/util/CheckUtil.java" />
         <option value="$PROJECT_DIR$/src/main/com/examination/Main.java" />
         <option value="$PROJECT_DIR$/src/main/com/examination/view/MainUI.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/view/MainView.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/util/CalculateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/util/CreateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/dao/IODao.java" />
+        <option value="$PROJECT_DIR$/src/main/com/examination/commons/OperatorVar.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1440" />
-    <option name="height" value="765" />
+    <option name="y" value="66" />
+    <option name="width" value="1941" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -237,7 +196,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="jprofiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -282,7 +241,11 @@
       <option name="presentableId" value="Default" />
       <updated>1602056841557</updated>
       <workItem from="1602056847385" duration="4057000" />
-      <workItem from="1602120931983" duration="21946000" />
+      <workItem from="1602120931983" duration="22377000" />
+      <workItem from="1602250098799" duration="585000" />
+      <workItem from="1602319956810" duration="572000" />
+      <workItem from="1602380569100" duration="589000" />
+      <workItem from="1602485138112" duration="2841000" />
     </task>
     <task id="LOCAL-00001" summary="[add]添加注释">
       <created>1602158138427</created>
@@ -291,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1602158138427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[add]处理了导入文件路径不存在时的异常情况">
+      <created>1602161038758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602161038758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26003000" />
+    <option name="totallyTimeSpent" value="31021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,10 +277,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="44" width="1294" height="694" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18593371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22815534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -318,17 +288,17 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19893429" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39253998" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28419182" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.43238434" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="JProfiler" order="11" />
+      <window_info anchor="bottom" id="JProfiler" order="11" weight="0.5035587" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -347,7 +317,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[add]添加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add]添加注释" />
+    <MESSAGE value="[add]处理了导入文件路径不存在时的异常情况" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add]处理了导入文件路径不存在时的异常情况" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Exercises.txt">
@@ -385,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/dao/FileDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CheckUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -402,14 +366,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/ProcessUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/UserUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/UserView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="3" />
@@ -426,35 +383,49 @@
     <entry file="file://$PROJECT_DIR$/examination-system.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/MainView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1307">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding>
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1790#1791#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/commons/Operator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/HandleUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CreatUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/dao/IODao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2937">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="138">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/commons/OperatorVar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -462,19 +433,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#199#223#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/examination/view/MainUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/com/examination/util/CreateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
-          <folding>
-            <element signature="e#555#579#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1863">
+          <caret line="91" column="60" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
         </state>
       </provider>
     </entry>

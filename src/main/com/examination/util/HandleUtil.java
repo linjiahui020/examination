@@ -5,7 +5,7 @@ package main.com.examination.util;
  * @date 2020/10/8 - 22:45
  * @describe
  */
-public class ProcessUtil {
+public class HandleUtil {
 
     /**
      * 将答案按规范生成出来

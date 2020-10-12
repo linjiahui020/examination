@@ -9,7 +9,7 @@ import java.util.List;
  * @date 2020/10/8 - 23:10
  * @describe
  */
-public class FileDao {
+public class IODao {
 
     private static final String PATH = System.getProperty("user.dir");
 

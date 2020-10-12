@@ -5,7 +5,7 @@ package main.com.examination.commons;
  * @date 2020/10/8 - 17:57
  * @describe
  */
-public enum Operator {
+public enum OperatorVar {
 
     /**
      * 运算符
@@ -20,7 +20,7 @@ public enum Operator {
     private String express;
     private String calculation;
 
-    Operator(String name, String express, String calculation) {
+    OperatorVar(String name, String express, String calculation) {
         this.name = name;
         this.express = express;
         this.calculation = calculation;

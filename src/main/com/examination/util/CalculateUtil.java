@@ -29,7 +29,7 @@ public class CalculateUtil {
 		denominator = denominator1 * denominator2;
 		if(numerator!=0) {
 			//化简分子分母（除以最大公因数）
-			int gcdNum = ProcessUtil.gcd(numerator,denominator);
+			int gcdNum = HandleUtil.gcd(numerator,denominator);
 			numerator /= gcdNum;
 			denominator /= gcdNum;
 		}
@@ -54,7 +54,7 @@ public class CalculateUtil {
 		denominator = denominator1*denominator2;
 		//化简分子分母（除以最大公因数）
 		if(numerator!=0) {
-			int gcdNum = ProcessUtil.gcd(numerator,denominator);
+			int gcdNum = HandleUtil.gcd(numerator,denominator);
 			numerator /= gcdNum;
 			denominator /= gcdNum;
 		}
@@ -83,7 +83,7 @@ public class CalculateUtil {
 			denominator = denominator1*denominator2;
 			//化简分子分母（除以最大公因数）
 			if(numerator!=0) {
-				int gcdNum = ProcessUtil.gcd(numerator,denominator);
+				int gcdNum = HandleUtil.gcd(numerator,denominator);
 				numerator /= gcdNum;
 				denominator /= gcdNum;
 			}
@@ -107,7 +107,7 @@ public class CalculateUtil {
 		denominator = denominator1*numerator2;
 		//化简分子分母（除以最大公因数）
 		if(numerator!=0) {
-			int gcdNum = ProcessUtil.gcd(numerator,denominator);
+			int gcdNum = HandleUtil.gcd(numerator,denominator);
 			numerator /= gcdNum;
 			denominator /= gcdNum;
 		}
@@ -132,10 +132,10 @@ public class CalculateUtil {
 				break;
 			}
 		}
-		datas = ProcessUtil.change(extraCopy, beginIndex);
+		datas = HandleUtil.change(extraCopy, beginIndex);
 		int numerator1 = datas[1];
 		int denominator1 = datas[2];
-		datas = ProcessUtil.change(extraCopy, index+1);
+		datas = HandleUtil.change(extraCopy, index+1);
 		int numerator2 = datas[1];
 		int denominator2 = datas[2];
 		endIndex = datas[0];
@@ -147,7 +147,7 @@ public class CalculateUtil {
 				extraCopy.insert(beginIndex+1, add(numerator1,denominator1,numerator2,denominator2));
 				break;
 			case '-':
-				if(!ProcessUtil.judge(numerator1, denominator1, numerator2, denominator2)) {
+				if(!HandleUtil.judge(numerator1, denominator1, numerator2, denominator2)) {
 					//识别答案是否为负数
 					extraCopy.insert(0, "@ ");
 					break;
@@ -206,7 +206,7 @@ public class CalculateUtil {
 		//如果运算结束后（式子正确），调整答案格式
 		if(extraCopy.charAt(0)!='@') {
 			int datas[];
-			datas = ProcessUtil.change(extraCopy, 0);
+			datas = HandleUtil.change(extraCopy, 0);
 			//分子
 			int numerator = datas[1];
 			//分母
@@ -214,7 +214,7 @@ public class CalculateUtil {
 			//将原存储内容清空
 			extraCopy.setLength(0);
 			//将答案换成标准格式
-			extraCopy.append(ProcessUtil.creatNum(numerator, denominator));
+			extraCopy.append(HandleUtil.creatNum(numerator, denominator));
 		}
 		return extraCopy;
 	}

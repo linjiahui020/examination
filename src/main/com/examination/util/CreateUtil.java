@@ -1,13 +1,11 @@
 package main.com.examination.util;
 
-import main.com.examination.commons.Operator;
-import main.com.examination.dao.FileDao;
+import main.com.examination.commons.OperatorVar;
+import main.com.examination.dao.IODao;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.Scanner;
 import java.util.logging.Logger;
 
 /**
@@ -15,10 +13,10 @@ import java.util.logging.Logger;
  * @date 2020/10/8 - 20:27
  * @describe
  */
-public class CreatUtil {
+public class CreateUtil {
 
     //日志输出
-    private static final Logger logger = Logger.getLogger("CreatUtil");
+    private static final Logger logger = Logger.getLogger("CreateUtil");
     List<StringBuilder> formula;
     //备份式子，存储"分子/分母"结构的式子，便于结果计算
     List<StringBuilder> answer;
@@ -38,17 +36,17 @@ public class CreatUtil {
      * @param maxNum 最大值
      * @return 返回该字符串
      * */
-    public StringBuilder creat(int maxNum) {
+    public StringBuilder create(int maxNum) {
         StringBuilder formula = new StringBuilder();
         extraCopy = new StringBuilder(" ");
         //符号个数 （1,2,3）
         int signNum = (int)(Math.random()*3+1);
         creatNum(formula,maxNum);
         for(int i=0; i<signNum; i++) {
-            creatSign(formula);
+            createSign(formula);
             creatNum(formula,maxNum);
         }
-        formula.append(Operator.EQUAL_SIGN.getExpress() +" ");
+        formula.append(OperatorVar.EQUAL_SIGN.getExpress() +" ");
         return formula;
     }
 
@@ -80,7 +78,7 @@ public class CreatUtil {
 			}while(!numRange(numerator, denominator,maxNum));
             //备份分子/分母
 			extraCopy.append(numerator+"/"+denominator+" ");
-			formula.append(ProcessUtil.creatNum(numerator, denominator));
+			formula.append(HandleUtil.creatNum(numerator, denominator));
 		}
 		return formula;
     }
@@ -91,25 +89,25 @@ public class CreatUtil {
      * @param formula 符号
      * @return 返回符号
      */
-    public StringBuilder creatSign(StringBuilder formula) {
+    public StringBuilder createSign(StringBuilder formula) {
         //符号类型（+ - * /）
         int signType = (int)(Math.random()*4+1);
         switch (signType){
             case 1 :
-                formula.append(Operator.PLUS_SIGN.getExpress());
-                extraCopy.append(Operator.PLUS_SIGN.getExpress());
+                formula.append(OperatorVar.PLUS_SIGN.getExpress());
+                extraCopy.append(OperatorVar.PLUS_SIGN.getExpress());
                 break;
             case 2 :
-                formula.append(Operator.MINUS_SIGN.getExpress());
-                extraCopy.append(Operator.MINUS_SIGN.getExpress());
+                formula.append(OperatorVar.MINUS_SIGN.getExpress());
+                extraCopy.append(OperatorVar.MINUS_SIGN.getExpress());
                 break;
             case 3 :
-                formula.append(Operator.MULTIPLIED_SIGN.getExpress());
-                extraCopy.append(Operator.MULTIPLIED_SIGN.getExpress());
+                formula.append(OperatorVar.MULTIPLIED_SIGN.getExpress());
+                extraCopy.append(OperatorVar.MULTIPLIED_SIGN.getExpress());
                 break;
             case 4 :
-                formula.append(Operator.DIVISION_SIGN.getExpress());
-                extraCopy.append(Operator.DIVISION_SIGN.getExpress());
+                formula.append(OperatorVar.DIVISION_SIGN.getExpress());
+                extraCopy.append(OperatorVar.DIVISION_SIGN.getExpress());
                 break;
             default:
 
@@ -133,7 +131,7 @@ public class CreatUtil {
         //原始式子
         StringBuilder singleFormula;
         for(int i=0; formula.size()<num; i++) {
-            formula.add(singleFormula = creat(maxNum));
+            formula.add(singleFormula = create(maxNum));
             CalculateUtil.calculateFormula(extraCopy);
             //式子不符合规范（结果为负数）,并且查重
             if(extraCopy.charAt(0)=='@' || CheckUtil.judgeRepeat(singleFormula,formulaLists,extraCopy,answer)) {
@@ -143,8 +141,8 @@ public class CreatUtil {
             answer.add(extraCopy);
         }
         int i=0;
-        FileDao.storageFile(formula,"Exercises.txt");
-        FileDao.storageFile(answer,"Answers.txt");
+        IODao.storageFile(formula,"Exercises.txt");
+        IODao.storageFile(answer,"Answers.txt");
         System.out.println("生成时间: " + (System.currentTimeMillis()-beginTime));
     }
 

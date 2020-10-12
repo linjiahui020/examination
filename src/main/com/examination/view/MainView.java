@@ -10,13 +10,11 @@ import java.io.IOException;
 import java.util.regex.Pattern;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 
 import java.util.List;
 
-import main.com.examination.dao.FileDao;
-import main.com.examination.util.CreatUtil;
-import main.com.examination.view.UserUI;
+import main.com.examination.dao.IODao;
+import main.com.examination.util.CreateUtil;
 
 
 /**
@@ -25,7 +23,7 @@ import main.com.examination.view.UserUI;
  * @describe
  */
 @SuppressWarnings("all")
-public class MainUI {
+public class MainView {
 	private String pathFormula;//式子文件路径
 	private String pathAnswer;//答案文件路径
 
@@ -36,7 +34,7 @@ public class MainUI {
 	JPanel panel3 = new JPanel();
 	Container c;
 
-	CreatUtil creatFor = new CreatUtil();
+	CreateUtil creatFor = new CreateUtil();
 
 	private JLabel label1 = new JLabel("四则运算");
 	private JLabel label2 = new JLabel("请输入生成式子的数目：");
@@ -90,7 +88,7 @@ public class MainUI {
 		return expression;
 	}
 
-	public MainUI() {
+	public MainView() {
 		frame.setTitle("四则运算软件");
 		frame.setSize(500, 300);
 		frame.setLocationRelativeTo(null);//居中
@@ -248,12 +246,12 @@ public class MainUI {
 					warning.setVisible(true);
 					return;
 				}
-				List<StringBuilder> formulas = FileDao.readFile(file1);
+				List<StringBuilder> formulas = IODao.readFile(file1);
 				if(formulas==null) {
 					text1.setBorder(BorderFactory.createLineBorder(Color.red));
 				}
 				else {
-					FileDao.storageFile(formulas, "Exercises.txt");
+					IODao.storageFile(formulas, "Exercises.txt");
 				}
 				File file2 = new File(pathAnswer);
 				if(!file2.exists() || file2.isDirectory()){
@@ -261,15 +259,15 @@ public class MainUI {
 					warning.setVisible(true);
 					return;
 				}
-				List<StringBuilder> answers = FileDao.readFile(file2);
+				List<StringBuilder> answers = IODao.readFile(file2);
 				if(formulas==null) {
 					text1.setBorder(BorderFactory.createLineBorder(Color.red));
 				}
 				else {
-					FileDao.storageFile(answers, "Answers.txt");
+					IODao.storageFile(answers, "Answers.txt");
 					frame.dispose();
 					try {
-						UserUI f = new UserUI(answers.size(),10);
+						UserView f = new UserView(answers.size(),10);
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
@@ -312,7 +310,7 @@ public class MainUI {
 			public void actionPerformed(ActionEvent e) {
 				frame.dispose();
 				try {
-					UserUI f = new UserUI(formulaNum, maxNum);
+					UserView f = new UserView(formulaNum, maxNum);
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
